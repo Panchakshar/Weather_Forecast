@@ -43,6 +43,7 @@ def getWeatherForecast(date):
 
 def getLastData():
     df = pd.DataFrame()
+    df2 = pd.DataFrame()
     if loc:
         show_hist = st.expander(label = 'Previous 15 days History')
         with show_hist:
@@ -52,6 +53,8 @@ def getLastData():
             max_temp_df = []
             min_temp_df = []
             feelslike_df = []
+            precip_df = []
+            snow_df = []
             for i in range(15):
                 start_date = d - datetime.timedelta(i)
                 date = start_date.strftime('%Y-%m-%d')                
@@ -63,15 +66,22 @@ def getLastData():
                     max_temp_df.append(day['tempmax'])
                     min_temp_df.append(day['tempmin'])
                     feelslike_df.append(day['feelslike'])
+                    precip_df.append(day['precip'])
+                    snow_df.append(day['snow'])
                     
             df['Date'] = date_df
             df['MaxTemp'] = max_temp_df
             df['MinTemp'] = min_temp_df
-            df['Temp'] = temp_df
             df['Feelslike'] = feelslike_df
+            df['Temp'] = temp_df
             df.set_index('Date',inplace=True)
+            df2['Date'] = date_df
+            df2['Precip'] = precip_df
+            df2['Snow'] = snow_df
+            df2.set_index('Date',inplace=True)
             st.table(df)
-    st.line_chart(df)
+    st.line_chart(df, height=250)
+    st.bar_chart(df2, height=250)
     
 def getDashboard():
     weatherForecast = getWeatherForecast(DATE)
