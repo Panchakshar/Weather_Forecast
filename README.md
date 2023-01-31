@@ -7,30 +7,30 @@ The dataset utilized in this arrangement has been gathered from https://www.visu
 
 In this project, we are concentrating on the temperature prediction with the help of various machine learning algorithms and various regressions. By applying various regressions on the historical weather dataset of New Delhi we are predicting the temperature like first we are applying Multiple Linear regression, then Decision Tree regression, and after that, we are applying Random Forest Regression.
 
-*Historical Weather Dataset of New Delhi:
+* Historical Weather Dataset of New Delhi:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Historical%20Weather%20Dataset%20of%20New%20Delhi.png?raw=true)
 
-*Plot for each factor:
+* Plot for each factor:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Plot%20for%20each%20factor.png?raw=true)
 
-*Plot for each factor for 1 year:
+* Plot for each factor for 1 year:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Plot%20for%20each%20factor%20for%201%20year.png?raw=true)
 
-*Histograms:
+* Histograms:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/download%20(2).png?raw=true)
 
-*Temp VS Max Temp:
+* Temp VS Max Temp:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Temp%20VS%20Max%20Temp.png?raw=true)
 
-*Temp VS Min Temp:
+* Temp VS Min Temp:
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Temp%20VS%20Min%20Temp.png?raw=true)
 
-*Temp VS Sea Level Pressure
+* Temp VS Sea Level Pressure
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Temp%20VS%20Sea%20Level%20Pressure.png?raw=true)
