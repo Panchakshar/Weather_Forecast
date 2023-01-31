@@ -34,3 +34,23 @@ In this project, we are concentrating on the temperature prediction with the hel
 * Temp VS Sea Level Pressure
 
 ![alt text](https://github.com/Panchakshar/Weather_Forecast/blob/master/Plots/Temp%20VS%20Sea%20Level%20Pressure.png?raw=true)
+
+## Weather Forecast Webapp
+
+## Requirement
+
+- Streamlit
+
+## Usage
+
+Clone it!
+
+```
+$ git clone git@github.com:Panchakshar/Weather_Forecast.git
+```
+
+Go into the project directory and run the command:
+
+```
+$ streamlit run Forecast.py
+```
